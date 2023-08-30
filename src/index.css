@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-div{
+  background-color: #74b3af;
+  width: 100%;
+  height: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.mid-div{
+  width: 750px;
+  height: auto;
+  margin: 0 auto;
+  background-color: antiquewhite;
+  padding-top: 25px;
+  padding-right: 10px;
+  padding-bottom: 60px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+.collups-btn{
+  width: 30px;
+  font-size: 15px;
+  height: 30px;
+  text-align: center;
+  font-weight: 900;
+  background-color: #112a7a;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  color: white;
+  float: right;
+}
+.single-divs{
+  width: 700px;
+  height: auto;
+  margin: 0 auto;
+  border-top: 2px solid #c0c3cc;
+  border-right: 2px solid #c0c3cc;
+  border-left: 2px solid #c0c3cc;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  position: relative;
+  border-radius: 3px;
+  padding-bottom: 3px;
+  margin-top: 30px;
+}
+.single-divs::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  right: 0;
+  height: 6px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+.question-heading{
+  float: left;
+  color: #3d3d63;
+}
+.info-style{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: small;
+  color: #5c5e66;
+}
+.underline{
+  width: 40px;
+  height: 3px;
+  background-color: #1aa34c;
+  margin: 0 auto;
+}
